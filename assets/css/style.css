@@ -85,5 +85,43 @@ h2 {
 } */
 
 
+/* Media queries  */
+
+/* Media queries (tablets, 768px and up)  */
+
+@media screen and (min-width: 768px) {
+    /* Make all cards same height for consistency  */
+    #services .card-body {
+        min-height: 191px;
+    }
+}
+
+/* Media queries (small laptops, 992px and up)  */
+
+@media screen and (min-width: 992px) {
+    /* Make all cards same height for consistency  */
+    #services .card-body {
+        min-height: auto;
+    }
+}
+
+/* Media queries (Large Desktops,  1200px and up)  */
+
+@media screen and (min-width: 1200px) {
+    /* Make all cards same height for consistency  */
+    #services .card-body {
+        min-height: 220px;
+    }
+}
+
+/* Media queries (Larger Desktops, 1400px and up)  */
+
+@media screen and (min-width: 1400px) {
+    /* Make all cards same height for consistency  */
+    #services .card-body {
+        min-height: 195px;
+    }
+}
+
 
 
