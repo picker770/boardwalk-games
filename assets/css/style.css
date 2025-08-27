@@ -8,10 +8,14 @@
 :root {
     --primary-font: 'Inter', sans-serif;
     --secondary-font: 'Macondo', cursive;
-    --primary-color: #3a2620; /* dark brown */
-    --secondary-color: #aa9581; /* light brown */
-    --highlight-color: #416a8e; /* blue */
-    --highlight-color-light: #7a9fc2; /* light blue */
+    --primary-color: #3a2620;
+    /* dark brown */
+    --secondary-color: #aa9581;
+    /* light brown */
+    --highlight-color: #416a8e;
+    /* blue */
+    --highlight-color-light: #7a9fc2;
+    /* light blue */
 }
 
 /* Global Styles  */
@@ -20,14 +24,17 @@ body {
     font-family: var(--primary-font);
 }
 
-h1,h2,h3 {
+h1,
+h2,
+h3 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
-    
+
 }
 
-h1,h2{
-     text-transform: uppercase;
+h1,
+h2 {
+    text-transform: uppercase;
 }
 
 h2 {
@@ -72,6 +79,13 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
+/* Game library cards */
+
+#new-games .card,
+#fav-games .card {
+    border: none;
+}
+
 
 /* grid visualisation CSS for testing */
 
@@ -90,6 +104,7 @@ h2 {
 /* Media queries (tablets, 768px and up)  */
 
 @media screen and (min-width: 768px) {
+
     /* Make all cards same height for consistency  */
     #services .card-body {
         min-height: 191px;
@@ -99,6 +114,7 @@ h2 {
 /* Media queries (small laptops, 992px and up)  */
 
 @media screen and (min-width: 992px) {
+
     /* Make all cards same height for consistency  */
     #services .card-body {
         min-height: auto;
@@ -108,6 +124,7 @@ h2 {
 /* Media queries (Large Desktops,  1200px and up)  */
 
 @media screen and (min-width: 1200px) {
+
     /* Make all cards same height for consistency  */
     #services .card-body {
         min-height: 220px;
@@ -117,11 +134,9 @@ h2 {
 /* Media queries (Larger Desktops, 1400px and up)  */
 
 @media screen and (min-width: 1400px) {
+
     /* Make all cards same height for consistency  */
     #services .card-body {
         min-height: 195px;
     }
 }
-
-
-
