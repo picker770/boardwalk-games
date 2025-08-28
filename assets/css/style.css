@@ -184,6 +184,18 @@ h2 {
 
 /* Media queries  */
 
+
+/* Small screens and up */
+@media screen and (min-width: 576px) {
+    /* increase font size in events table when screen size is large enough */
+    #events .table {
+        font-size: 1rem;
+    }
+    .student-discount {
+        font-size: 1rem;
+    }
+}
+
 /* Media queries (tablets, 768px and up)  */
 
 @media screen and (min-width: 768px) {
