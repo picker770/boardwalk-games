@@ -25,13 +25,12 @@
 <!-- Classes on body set to work with mt-auto on footer to ensure it always stays at the bottom of the page -->
 
 <body class="d-flex flex-column min-vh-100">
-
   <!-- Navigation -->
-
   <nav id="navbar" class="navbar navbar-expand-lg" data-bs-theme="dark">
     <div class="container">
-      <a class="navbar-brand" href="index.html"><img src="assets/images/logo-sm-white.png" class="logo"
-          alt="Boardwalk Games logo"></a>
+      <a class="navbar-brand" href="index.html">
+        <img src="assets/images/logo-sm-white.png" alt="Boardwalk Games logo" class="logo">
+      </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -50,26 +49,23 @@
           <li class="nav-item">
             <a class="nav-link" href="#">Contact</a>
           </li>
-
         </ul>
       </div>
     </div>
   </nav>
 
   <!-- Header with carousel -->
-
-  <!-- Header text  -->
   <header id="header" class="container section">
     <div class="row">
       <div class="col-12 col-xl-6 text-center text-xl-start">
         <h1 class="display-3">Boardwalk Games</h1>
         <p class="lead display-6 sub-heading-color">Your next adventure is waiting!</p>
-        <p class="my-4">Welcome to Boardwalk Games, Your Ultimate Gaming Getaway! Escape into the world of board games
-          and café delights. Whether you're a casual gamer seeking a cosy nook to unwind, a board game enthusiast ready
-          for your next challenge, or a student gamer looking for a fun, affordable hangout, we've got you covered.</p>
+        <p class="my-4">Welcome to Boardwalk Games, Your Ultimate Gaming Getaway! Escape into the world of board
+          games and
+          café delights. Whether you're a casual gamer seeking a cosy nook to unwind, a board game enthusiast
+          ready for your next challenge, or a student gamer looking for a fun, affordable hangout, we've got
+          you covered.</p>
       </div>
-
-      <!-- Carousel  -->
       <div class="col-12 col-xl-6">
         <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
@@ -113,14 +109,9 @@
     </div>
   </header>
 
-
-
-
   <!-- main element to hold all key sections of the home page. It is not part of the grid structure -->
   <main>
     <!-- Services section -->
-
-
     <section id="services" class="container section">
       <div class="row">
         <div class="col-12 text-center">
@@ -198,11 +189,9 @@
     </section>
   </main>
 
-
-
   <!-- Footer / contact section -->
   <!-- mt-auto added to push footer to the bottom of the page -->
-  <footer class="mt-auto" id="contact">
+  <footer id="contact" class="mt-auto">
     <div class="container section">
       <div class="row justify-content-center">
         <div class="col-12 text-center">
@@ -216,23 +205,54 @@
             123 Boardwalk<br>
             Boardwalk City, 12345
           </address>
-          <p><i class="fa-solid fa-phone"></i> 012 345 6789 <br>
-          <i class="fa-regular fa-paper-plane"></i> info@boardwalk-games.co
+          <p><i class="fa-solid fa-phone"></i> 012 345 6789<br>
+            <i class="fa-regular fa-paper-plane"></i> info@boardwalk-games.co
           </p>
+          <div class="social-links mt-4">
+            <a href="https://www.instagram.com" target="_blank"
+              aria-label="Visit our Instagram page (opens in a new tab)" rel="noopener"><i
+                class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com" target="_blank" aria-label="Visit our Facebook page (opens in a new tab)"
+              rel="noopener"><i class="fa-brands fa-square-facebook"></i></a>
+            <a href="https://www.x.com" target="_blank" aria-label="Visit our X feed (opens in a new tab)"
+              rel="noopener"><i class="fa-brands fa-x-twitter"></i></a>
+          </div>
         </div>
-        <div class="social-links mt-4">
-                        <a href="https://www.instagram.com" target="_blank"
-                            aria-label="Visit our Instagram page (opens in a new tab)" rel="noopener"><i
-                                class="fa-brands fa-instagram"></i></a>
-                        <a href="https://www.facebook.com" target="_blank"
-                            aria-label="Visit our Facebook page (opens in a new tab)" rel="noopener"><i
-                                class="fa-brands fa-square-facebook"></i></a>
-                        <a href="https://www.x.com" target="_blank" aria-label="Visit our X feed (opens in a new tab)"
-                            rel="noopener"><i class="fa-brands fa-x-twitter"></i></a>
-                    </div>
-                </div>
+
         <!-- Opening times -->
-        <div class="col-12 col-md-6 col-xl-4">Opening times</div>
+        <div class="col-12 col-md-6 col-xl-4">
+          <h3 class="sub-heading-color">Opening times</h3>
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Day</th>
+                <th scope="col">Open</th>
+                <th scope="col">Close</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Mon</th>
+                <td colspan="2">Closed</td>
+              </tr>
+              <tr>
+                <th scope="row">Tue - Thur</th>
+                <td>11am</td>
+                <td>11pm</td>
+              </tr>
+              <tr>
+                <th scope="row">Fri - Sat</th>
+                <td>11am</td>
+                <td>12am</td>
+              </tr>
+              <tr>
+                <th scope="row">Sun</th>
+                <td>12pm</td>
+                <td>7pm</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
     </div>
   </footer>
